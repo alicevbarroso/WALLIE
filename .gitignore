@@ -1,0 +1,49 @@
+# Dependencies and generated Expo/native builds
+node_modules/
+.expo/
+.expo-shared/
+dist/
+web-build/
+android/.gradle/
+android/build/
+ios/Pods/
+*.apk
+*.aab
+*.ipa
+
+# Arduino IDE and build output
+build/
+*.elf
+*.hex
+*.eep
+*.bin
+*.map
+*.o
+*.d
+*.ino.*
+
+# Local editor/OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+
+# Local env, credentials, signing keys
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+credentials.json
+google-services.json
+GoogleService-Info.plist
+
+# Local backup and logs
+backup-inicial-*/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log

@@ -1,0 +1,25 @@
+﻿{
+  "expo": {
+    "name": "WALLIE",
+    "slug": "wallie-monitoramento",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "br.com.wallie.monitoramento"
+    },
+    "ios": {
+      "bundleIdentifier": "br.com.wallie.monitoramento"
+    },
+    "plugins": [
+      [
+        "with-rn-bluetooth-classic",
+        {
+          "peripheralUsageDescription": "O WALLIE usa Bluetooth para se comunicar com o HC-05.",
+          "alwaysUsageDescription": "O WALLIE usa Bluetooth para se comunicar com o HC-05.",
+          "protocols": []
+        }
+      ]
+    ]
+  }
+}
